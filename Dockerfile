@@ -20,7 +20,7 @@ RUN apk update \
  && cp ~/yiimp/stratum/run.sh /var/stratum \
  && cp ~/yiimp/stratum/config/run.sh /var/stratum/config \
  && cp ~/yiimp/stratum/stratum /var/stratum \
- && cp ~/yiimp/stratum/config.sample/neo.conf /var/stratum/config \
+ && cp ~/yiimp/stratum/config.sample/nist5.conf /var/stratum/config \
  && rm -rf ~/yiimp \
  && apk del ${BUILD_DEPS} \
  && rm -rf /var/cache/apk/*
